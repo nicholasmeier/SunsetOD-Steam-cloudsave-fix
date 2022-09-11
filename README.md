@@ -4,7 +4,7 @@ The game Sunset Overdrive has a bug when used with steam so I wrote a dumb lil' 
 I'm using windows but got a bash shell that I have installed to run .sh files and stuff. I use git bash but it probably works with other things too. 
 
 # Installation: 
-Download the script and edit it to point to the steam_autocloud.vdf file in your save dir. For windows that's in <home>/AppData/Local/Sunset/Saves/<somenumber>/
+Download the script and edit it to point to the steam_autocloud.vdf file in your save dir. For windows that's in <home>/AppData/Local/Sunset/Saves/"somenumber"/
 
 Just put the script in your Steam\steamapps\common\SunsetOverdriv\ directory and add the following to the launch options under properties for Sunset Overdrive:
   "<Your_Path_TO_SUNSETOD_DIR>\Steam\steamapps\common\SunsetOverdrive\sunsetod_remove_steam_vdf.sh" %command%
